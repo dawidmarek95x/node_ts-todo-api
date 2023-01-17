@@ -1,7 +1,6 @@
 import { RequestHandler } from "express";
 import { nanoid } from "nanoid";
 import { Todo } from "../models/Todo";
-import bodyParser from "body-parser";
 
 const TODOS: Todo[] = [];
 
